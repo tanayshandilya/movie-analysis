@@ -1,0 +1,28 @@
+{
+  "name": "movie-analysis",
+  "version": "1.0.0",
+  "description": "Develop a pseudo frontend web app for Movie Analysis.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanayshandilya/movie-analysis.git"
+  },
+  "keywords": [
+    "API",
+    "Movies",
+    "HackerEarth",
+    "Challange",
+    "Listing",
+    "Web",
+    "Application"
+  ],
+  "author": "Tanay Shandilya <tanay.shandilya99@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tanayshandilya/movie-analysis/issues"
+  },
+  "homepage": "https://github.com/tanayshandilya/movie-analysis#readme"
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/css/style.css">
+
+    <title>Movie Analysis</title>
+  </head>
+  <body>
+    <div id="preloader"> 
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" stroke="#fff">
+                <g fill="none" fill-rule="evenodd">
+                    <g transform="translate(1 1)" stroke-width="2">
+                        <circle stroke-opacity=".5" cx="18" cy="18" r="18"></circle>
+                        <path d="M36 18c0-9.94-8.06-18-18-18" transform="rotate(316.781 18 18)">
+                            <animateTransform attributeName="transform" type="rotate" from="0 18 18" to="360 18 18" dur="1s" repeatCount="indefinite"></animateTransform>
+                        </path>
+                    </g>
+                </g>
+            </svg>
+        </div>
+    </div>
+    <div class="container py-4 text-center">
+        <h1>Movie Analysis</h1>
+    </div>
+    <center>
+        <button id="grid" style="padding-bottom:0;" class="btn btn-outline-dark"><i class="material-icons">grid_on</i></button>
+        <button id="list" style="padding-bottom:0;" class="btn btn-outline-dark"><i class="material-icons">list</i></button>
+    </center>
+    <hr>
+    <div class="container-fluid">
+        <div id="app-root" class="row"></div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/public/js/jquery-3.3.1.min.js"></script>
+    <script src="/public/js/popper.min.js"></script>
+    <script src="/public/js/bootstrap.min.js"></script>
+    <script src="/public/js/app.js"></script>
+  </body>
+</html>

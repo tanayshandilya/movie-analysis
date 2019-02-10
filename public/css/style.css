@@ -1,0 +1,74 @@
+html > * {
+    font-family: 'Istok Web', sans-serif;
+}
+
+#preloader {
+    position: fixed;
+    z-index: 99999;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: rgba(0, 0, 0, 0.9);
+    transition: all 1s ease 0.4s;
+    display: none;
+}
+
+#preloader > div {
+    font-size: .7em;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+    width: 100%;
+    text-align: center;
+    color:#fff;
+}
+
+.card {
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+.badge-genres {
+    font-weight: 100;
+    background-color: #f4f4f454;
+    color: #ffffff;
+    vertical-align: middle;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: none;
+    border: 1px solid transparent;
+    transition: all 0.25s ease-in-out;
+}
+.badge-genres:hover {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    transition: all 0.25s ease-in-out;
+}
+
+.i-sm  {
+    font-size: 9.5px;
+}
+
+hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+td {
+    padding: .015rem !important;
+}
+
+.text-deemed {
+    color: #ffffff80 !important;
+}
+
+.h6, h6 {
+    font-size: 0.85rem;
+}
+
+.btn-outline-light:hover {
+    color: #ffffff !important;
+    background-color: #f8f9fa30 !important;
+}
